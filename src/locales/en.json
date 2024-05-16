@@ -1,0 +1,20 @@
+{
+  "createdSuccess": "Data created successfully",
+  "dataFetched": "Data fetched successfully",
+  "deletedSuccess": "Data deleted successfully",
+  "updatedSuccess": "Data updated successfully",
+  "requestValidationFailed": "Request validation failed",
+  "internalError": "Internal server error",
+  "invalidId": "Invalid id provided",
+  "dataAlreadyExists": "Data already exists",
+  "accountNotExists": "Account does not exist",
+  "loginSuccess": "Login successfully",
+  "userNotFound": "User does not exist",
+  "otpSentSuccess": "Otp sent successfully",
+  "notLoggedIn": "You are not logged in",
+  "loggedOut": "You have been logged out",
+  "leaveBalanceNotAvailable": "You don't have enough leaves for this application",
+  "notAllowedToUpdateLeaveStatus": "You don't have permission to accept or reject leave",
+  "googleAuthFailed": "Google authentication failed",
+  "notAllowed": "Not allowed"
+}

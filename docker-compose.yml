@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  grocery-backend:
+    container_name: grocery-backend
+    ports:
+      - 6000:8080
+    build:
+      # context: ./grocery-backend/
+      args:
+        PORT: 8080
+    restart: unless-stopped
+
+    

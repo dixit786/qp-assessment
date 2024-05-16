@@ -1,0 +1,16 @@
+pipelines:
+  default:
+    - step:
+        script:
+          - echo "grocery"
+  branches:
+    master:
+      - step:
+          script:
+            - pipe: atlassian/ssh-run:0.4.1
+              variables:
+                MODE: 'script'
+                SSH_KEY: $GROCERY_SSH
+                SSH_USER: '< Username of server >'
+                SERVER: '< IP of Server >'
+                COMMAND: 'commands-prod.sh'
